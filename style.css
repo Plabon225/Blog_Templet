@@ -1,0 +1,277 @@
+body{
+    background-color: #101728;
+}
+.navbar{
+    background-color: #101728;
+    border-radius: 1px solid #555555;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white !important;
+    font-weight: bold;
+    position: relative;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #858484 !important;
+}
+.card-title{
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+}
+@media(max-width:768px){
+  .card-title{
+    font-size: 70px;
+  }
+}
+@media(max-width:992px){
+  .card-title{
+    font-size: 70px;
+  
+  }
+  #home{
+    text-align: center;
+  }
+  
+  #about{
+    text-align: center;
+    
+  }
+  #feature{
+    text-align: center;
+  }
+  #contacs{
+    text-align: center;
+  }
+}
+.btn{
+    
+    background: linear-gradient(to right, #9740F8, #F83C68);
+    width: 220px;
+    height: 70px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    margin-top: 80px;
+}
+
+
+.rounded{
+    width: 455px;
+    height: 455px;
+    margin-left: 50px;
+    border-radius: 25px !important;
+}
+.z-0{
+   padding-right: 500px;
+}
+.z-0 img{
+    width: 600px;
+    margin-top: -70px;
+    margin-left: -30px;
+}
+.z-1{
+  margin-top: -500px;
+  margin-left: 10px;
+}
+i{
+    position: relative;
+}
+i:hover{
+    top: -3px;
+}
+
+
+
+
+/* 
+
+
+*/
+
+/* fade in left  */
+.fade-in-left {
+    opacity: 0; /* Ensure it's initially hidden */
+    animation: fadeInLeft 1s ease forwards; 
+    animation-delay: 0.1s;/* 1s duration, easing effect */
+    
+  }
+  .fade-in-left-one{
+    opacity: 0; /* Ensure it's initially hidden */
+    animation: fadeInLeft 1s ease forwards;
+    animation-delay: 0.1s;
+  }
+  .fade-in-left-two{
+    opacity: 0; /* Ensure it's initially hidden */
+    animation: fadeInLeft 1s ease forwards;
+    animation-delay: 0.3s;
+  }
+  .fade-in-left-three{
+    opacity: 0; /* Ensure it's initially hidden */
+    animation: fadeInLeft 1s ease forwards;
+    animation-delay: 0.1s;
+  }
+  .fade-in-left-four{
+    opacity: 0; /* Ensure it's initially hidden */
+    animation: fadeInLeft 1s ease forwards;
+    animation-delay: 0.3s;
+  }
+
+@keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-60px); /* Start slightly to the left */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* End at the original position */
+    }
+  }
+
+  /* Keyframes for fade-in right animation */
+
+  .fade-in-right {
+    opacity: 0; /* Start hidden */
+    animation: fadeInRight 1s ease forwards;
+    animation-delay: 0.4s; /* 1s duration with easing */
+  }
+  
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(60px); /* Start slightly to the left */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* End at the original position */
+  }
+}
+
+/* Applying the animation to the element */
+
+
+  /* fade up */
+  /* Keyframes for fade-up animation */
+  .fade-up {
+    opacity: 0; /* Start hidden */
+    animation: fadeUp 1s ease forwards; /* 1s duration with easing */
+    animation-delay: 0.2s;
+  }
+.fade-up-one{
+  opacity: 0; /* Start hidden */
+  animation: fadeUp 1s ease forwards; /* 1s duration with easing */
+  animation-delay: 0.2s;
+}
+.fade-up-two{
+  opacity: 0; /* Start hidden */
+  animation: fadeUp 1s ease forwards; /* 1s duration with easing */
+  animation-delay: 0.4s;
+}
+.fade-up-three{
+  opacity: 0; /* Start hidden */
+  animation: fadeUp 1s ease forwards; /* 1s duration with easing */
+  animation-delay: 0.3s;
+}
+.fade-up-four{
+  opacity: 0; /* Start hidden */
+  animation: fadeUp 1s ease forwards; /* 1s duration with easing */
+  animation-delay: 0.5s;
+}
+/*  */
+
+@keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(60px); /* Start slightly below */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* End at the original position */
+    }
+  }
+  
+  /* Applying the animation to the element */
+
+
+/* Keyframes for fade-down animation */
+
+
+/* Applying the animation to the element */
+.fade-down {
+  opacity: 0; /* Start hidden */
+  animation: fadeDown 1s ease forwards;
+  animation-delay: 0.2s; /* 1s duration with easing */
+}
+.fade-down-nav {
+  opacity: 0; /* Start hidden */
+  animation: fadeDown 1s ease forwards;
+  animation-delay: 0.4s; /* 1s duration with easing */
+}
+
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-60px); /* Start slightly above */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End at the original position */
+  }
+}
+
+
+
+
+
+.fade-up-five{
+  opacity: 0; /* Start hidden */
+  animation: fadeUpt 1s ease forwards; /* 1s duration with easing */
+  animation-delay: 0.5s;
+}
+.fade-up-six{
+  opacity: 0; /* Start hidden */
+  animation: fadeUpt 1s ease forwards; /* 1s duration with easing */
+  animation-delay: 0.7s;
+}
+.fade-up-saven{
+  opacity: 0; /* Start hidden */
+  animation: fadeUpt 1s ease forwards; /* 1s duration with easing */
+  animation-delay: 0.9s;
+}
+.fade-up-eight{
+  opacity: 0; /* Start hidden */
+  animation: fadeUpt 1s ease forwards; /* 1s duration with easing */
+  animation-delay: 1.1s;
+}
+
+
+@keyframes fadeUpt {
+  0% {
+    opacity: 0;
+    transform: translateY(200px); /* Start slightly below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End at the original position */
+  }
+}
+
+
+
+/* Keyframes for blink-up animation */
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Completely transparent at the start */
+  }
+  100% {
+    opacity: 1; /* Fully visible at the end */
+  }
+}
+
+/* Applying the animation to the element */
+.fade-in {
+  opacity: 0; /* Ensures the element is hidden initially */
+  animation: fadeIn 1s ease-in forwards; /* 2s duration with easing */
+}
+
+
+ 
